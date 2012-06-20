@@ -20,6 +20,9 @@
 *.ps
 *.snm
 *.synctex.gz
+*.tex~
+*.tex.backup
+*.tex.swap
 *.toc
 *.vrb
 *.maf

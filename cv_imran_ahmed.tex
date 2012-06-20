@@ -1,0 +1,204 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+% customizing link colors and formatting
+%\hypersetup{colorlinks=true}
+%\hypersetup{a4paper=true}
+\usepackage{color}
+\definecolor{iorange}{RGB}{243,110,36}
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%PERSONAL DATA%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% personal data
+\firstname{Imran}
+\familyname{Ahmed}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{\hspace{-1in}S. No. 165/3/1/2, \\Gurudwara Colony,\\Lohegaon,}{Pune, 411047}    % optional, remove the line if not wanted
+\mobile{mobile +91-9762742899}                    % optional, remove the line if not wanted
+%\phone{}                      % optional, remove the line if not wanted
+\email{iahmed213@gmail.com}                      % optional, remove the line if not wanted
+%\homepage{reversehack.in}
+\extrainfo{IRC Nick: rekenerd}
+\extrainfo{GitHub: github.com/rekenerd \\Blog: rekenerd.github.com}
+%\extrainfo{Blog: akshayrk.wor }
+%\quote{I aspire to master the art of algorithm design and programming. 
+%}                 
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%EDUCATION%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\cventry{2008-Present}{Final year engineering student in Computer Science}{}{University of Pune}{India}{Studying at Jayawantrao Sawant College of Engineering. Secured aggregate higher second class till date. Graduating in mid-June, 2012.}  
+%\cventry{1995--1997}{Master's Level Computer Science Courses}{DePaul University}{Chicago} {IN}{Coursework for professional development.}  % arguments 3 to 6 are optional
+\cventry{2007-2008}{HSC}{CBSE}{Pune}{IN}{Secured 79.6\%} % arguments 3 to 6 are optional
+\cventry{2005-2006}{SSC}{CBSE}{Pune}{IN}{Sesured 81.6\%}  % arguments 3 to 6 are optional
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%TECHNICAL SKILLS%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cvcomputer{}{} {}{}
+
+\vspace{.4in}\section{Technical Skills} 
+\cvcomputer{\textbf{Platforms}}{GNU/Linux(Debian,Fedora),\\Android, Microsoft\textsuperscript{\textregistered} Windows\textsuperscript{\textregistered}.}{\textbf{Programming Languages Used}}{C: Intermediate, \\C++: Intermediate,\\ Java, Python, Ruby: Beginner. } {}{}
+\cvcomputer{\textbf{Frameworks}}{Qt,Microsoft\textsuperscript{\textregistered} Visual Studio\textsuperscript{\textregistered} }{\textbf{CMS}}{Joomla.}
+\cvcomputer{\textbf{Databases}}{MySQL, Oracle, SQLite.}  {\textbf{Development Tools}}{Vim, Git, Eclipse, IntelliJ, LaTeX, Dreamweaver.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%EXPERIENCE%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+%AndroSync
+\cventry
+{2011-Present}
+{AndroSync}
+{Final year engineering project}
+{}
+{}
+{Currently working on AndroSync; an offline android synchronization manager specifically being built for linux platform but is cross-platform 
+compatible. AndroSync can be used to avoid sending user data to cloud during back up of contacts, messages, etc and ensure users privacy. 
+Consists of client and server module. Client is an android application and server is a desktop application written using Qt, C++ and SQLite.}
+
+
+%PyGame
+\cventry
+{May, 2011}
+{PyGame}
+{Third year engineering mini-project}
+{}
+{}
+{This project was an attempt to learn python and simple animation using python pygame libraries. Built simple applications like paint and toy 
+animations. A tron like game was built as part of this project. }
+
+%eventIT
+\cventry
+{May, 2011}
+{EventIt}
+{Third year engineering mini-project}
+{}
+{}
+{Created a website for event organisation. Useful for tasks like ticketing, updates, FAQs, etc. using PHP, CSS, MySQL. }
+
+%LIC
+\cventry
+{September, 2010}
+{Insurance record manager}
+{Third year engineering mini-project}
+{}
+{}
+{As part of the curriculum, created a mini-project for handling records of a life insurance firm using VB, Oracle 10g. }
+
+
+\section{Seminars Conducted}
+%\subsection{Vocational}
+%\cventry{2010--Present}{Network and System Administrator}{\textcolor{iorange}{iIntelliSys}}{Pune}{IN}{}                % arguments 3 to 6 are optional
+
+%\subsection{Open Source Contributions}
+
+
+%Diaspune
+
+\cventry
+{February 2011}
+{Python with Pygame for Beginners}
+{}
+{}
+{}
+{Basic introduction to programming in Python. Usage of python for simplifying programming tasks and using graphics libraries for animation.}
+
+\cventry
+{May 2011}
+{Secure Sockets Layer}
+{JSCOE}
+{Speaker}
+{}
+{Presented this seminar as part of curriculum based on \hyperlink{http://ieeexplore.ieee.org/search/freesrchabstract.jsp?tp=&arnumber=1621007}{IEEE 
+paper}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%Co-Curricular%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Co-Curricular}
+\subsection{Talks and Workshops attended}
+\cventry{}{* Introduction to Ruby and Ruby on Rails}{}{}{}{}
+\cventry{}{* RubyConf 2012}{}{}{}{}
+\cventry{}{* Agile programming practices}{}{}{}{}
+%\cventry{}{* FudCon 2011}{}{}{}{}
+%\cventry{}{* Fedora Activity Day, 2011}{}{}{}{}
+\cventry{}{* Version controlling using Git}{}{}{}{}
+%\cventry{}{* Fedora packaging}{}{}{}{}
+\cventry{}{* PyCon 2011}{}{}{}{}
+\cventry{}{* MiniDebianConference 2010, 2011}{}{}{}{}
+\cventry{}{* GNUnify2011}{}{}{}{}
+\cventry{}{* Programming in Python}{}{}{}{}
+\cventry{}{* Android application development basics}{}{}{}{}
+%\cventry{}{* Joomla Day 2011}{}{}{}{}	
+\cventry{}{* Microsoft .Net framework}{}{}{}{}
+\cventry{}{* Cloud Computing (Cloud Camp)}{}{}{}{}	
+%\newpage
+\subsection{Other}
+\cventry{}{* Volunteered for RubyConf 2012}{}{}{}{}	
+\cventry{}{* Active member of the Diaspora Pune group}{}{}{}{}	
+\cventry{}{* Member of Pune Linux User’s Group (PLUG) and VIT Active Linux Users group (VALU). }{}{}{}{}	
+\cventry{}{* Participated at various inter-college level technical events}{}{}{}{}
+%\cventry{}{* Participated in College Festivals}{}{}{}{}
+\cventry{}{* Member of college basketball team}{}{}{}{}		
+
+%\cvlistitem{ Item 1}
+%\cvlistitem{ Item 2
+% \\http://example.com
+%  \\http://example2.com}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%INTERESTS & HOBBIES%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Interests and Hobbies}
+\cvline{Privacy and Security}{\small I like to spread awareness about Key signing, online privacy. I like to educate people on how to use internet 
+safely. }
+\cvline{Blogging}{\small I like to blog about my thoughts, technology and any enlightening events of my life.}
+%\cvline{Reading}{\small Reading technical blogs, journals, technical books and fictional and non-fiction novels.} 
+\cvline{IRCing}{\small I like to use the IRC for learning and helping out people.}
+%\cvline{E-Gadgets}{\small I like to explore new electronic gadgets.}
+%\cvline{Travelling}{\small I love traveling and trekking on weekends.}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}
