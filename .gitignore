@@ -20,6 +20,7 @@
 *.pdfsync
 *.ps
 *.snm
+*.swp
 *.synctex.gz
 *.tex~
 *.tex.backup
