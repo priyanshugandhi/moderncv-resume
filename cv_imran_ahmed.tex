@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper]{moderncv}
+\documentclass[12pt,a4paper]{moderncv}
 
 % moderncv themes
 %\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
@@ -35,9 +35,9 @@
 \mobile{mobile +91-9762742899} % optional, remove the line if not wanted
 %\phone{}                      % optional, remove the line if not wanted
 \email{iahmed213@gmail.com}    % optional, remove the line if not wanted
-%\homepage{reversehack.in}
+%\homepage{}
 %\extrainfo{IRC Nick: rekenerd}
-\extrainfo{Github: github.com/rekenerd \\Blog: rekenerd.github.com}                
+\extrainfo{Github: github.com/rekenerd}
 
 %\nopagenumbers{} 	       % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -49,14 +49,24 @@
 \maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%EXPERIENCE%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+\cventry{Jan 2013 - Present}{Software Developer}{Ignite Solutions}{}{India}
+{Development of a second screen software application that allow user to interact with shows. This application is developed using Python on backend and databases are MySQL and MongoDB. HTML, CSS, jQuery and JavaScript are used on frontend. Extensive work on making the application cloud-capable and deploying it successfully as SaaS on cloud.}
+\vspace{.1in}
+\cventry{Aug 2012 - Nov 2012}{Software Developer}{Hopsys}{}{India}
+{Development of a complex software applications that automate hospital workflows using a J2EE stack consisting of GWT, Spring, Datanucleus, and Spring Roo. Extensive work on making the application cloud-capable and deploying it successfully onto a PaaS cloud. Work across the end-to-end software lifecycle to strategically progress on planning, design, functionality, usability and quality of the product.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%EDUCATION%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education}
-\cventry{2008 - 2012}{Completed engineering in Computer Science}{}{University of Pune}{India}{Studied at Jayawantrao Sawant College of Engineering. Secured higher second class.}
-%Graduated in June, 2012.}  
-\cventry{2007 - 2008}{HSC}{CBSE}{Pune}{India}{Secured 79.6\%} % arguments 3 to 6 are optional
-\cventry{2005 - 2006}{SSC}{CBSE}{Pune}{India}{Sesured 81.6\%}  % arguments 3 to 6 are optional
+\cventry{2008 - 2012}{Bachelor of Engineering in Computer Science}{}{University of Pune}{India}{}
+%Graduated in June, 2012.}
+%\cventry{2007 - 2008}{HSC}{CBSE}{Pune}{India}{Secured 79.6\%} % arguments 3 to 6 are optional
+%\cventry{2005 - 2006}{SSC}{CBSE}{Pune}{India}{Sesured 81.6\%}  % arguments 3 to 6 are optional
 
 %\section{Master thesis}
 %\cvline{title}{\emph{Title}}
@@ -69,83 +79,70 @@
 %\cvcomputer{}{} {}{}
 
 %\vspace{.4in}
-\section{Technical Skills} 
-\cvcomputer{\textbf{Platforms}}{GNU/Linux(Debian,Fedora),\\Android, Microsoft\textsuperscript{\textregistered} Windows\textsuperscript{\textregistered}.}{\textbf{Programming Languages Used}}{C, C++, Python : Intermediate. \\ Java, Ruby : Beginner. } {}{}
-\cvcomputer{\textbf{Frameworks}}{Rails.}{\textbf{Databases}}{MySQL, Oracle, SQLite.}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%EXPERIENCE%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experience}
-\cventry{Augest, 2012 - November, 2012}{Software Developer}{Hopsys}{Pune}{India}
-{Development of a complex software applications that automate hospital workflows using a J2EE stack consisting of GWT, Spring, Datanucleus, and Spring Roo. Extensive work on making the application cloud-capable and deploying it successfully onto a PaaS cloud. Work across the end-to-end software lifecycle to strategically progress on planning, design, functionality, usability and quality of the product.}
+%\section{Technical Skills}
+%\cvcomputer{\textbf{Platforms}}{GNU/Linux(Debian,Fedora),\\Android, Microsoft\textsuperscript{\textregistered} Windows\textsuperscript{\textregistered}.}{}{}
+%{\textbf{Programming Languages Used}}{C, C++, Python : Intermediate. \\ Java, Ruby : Beginner. } {}{}
+%\cvcomputer{\textbf{Frameworks}}{Web2py, Bottle.}{}{}
+%\cvcomputer{\textbf{Databases}}{MySQL, Oracle, SQLite, MongoDB.}{}{}
 
 \section{Projects}
 %AndroSync
 \cventry
 {2011 - 2012}{AndroSync}{Final year engineering project}{}{}
 {An offline android synchronization manager specifically being built for linux platform but is cross-platform compatible. AndroSync can be used to avoid sending user data to cloud during back up of contacts, messages, etc and ensure users privacy. Consists of client and server module. Client is an android application and server is a desktop application written using Qt, C++ and SQLite.}
-
+\vspace{.1in}
 %PyGame
 \cventry
 {May, 2011}{PyGame}{Third year engineering mini-project}{}{}
-{This project was an attempt to learn python and simple animation using python pygame libraries. Built simple applications like paint and toy 
+{This project was an attempt to learn python and simple animation using python pygame libraries. Built simple applications like paint and toy
 animations. A tron like game was built as part of this project. }
-
+\vspace{.1in}
 %Event It
 \cventry
 {May, 2011}{Event It}{Third year engineering mini-project}{}{}
 {Created a website for event organisation. Useful for tasks like ticketing, updates, FAQs, etc. using PHP, CSS, MySQL. }
-
+\vspace{.1in}
 %LIC
 \cventry
 {September, 2010}{Insurance Record Manager}{Third year engineering mini-project}{}{}
 {As part of the curriculum, created a mini-project for handling records of a life insurance firm using VB, Oracle 10g. }
 
 \section{Seminars Conducted}
-%\subsection{Vocational}
-%\cventry{2010--Present}{Network and System Administrator}{\textcolor{iorange}{iIntelliSys}}{Pune}{IN}{}                % arguments 3 to 6 are optional
-
-%\subsection{Open Source Contributions}
-
-
-%Diaspune
-
 \cventry
 {February 2011}
 {Python with Pygame for Beginners}{}{}{}
 {Basic introduction to programming in Python. Usage of python for simplifying programming tasks and using graphics libraries for animation.}
-
+\vspace{.1in}
 \cventry
-{May 2011}{Secure Sockets Layer}{JSCOE}{Speaker}{}
-{Presented this seminar as part of curriculum based on \hyperlink{http://ieeexplore.ieee.org/search/freesrchabstract.jsp?tp=&arnumber=1621007}{IEEE 
-paper}}
+{May 2011}{Secure Sockets Layer}{}{}{}
+{Presented this seminar as part of curriculum}
+%{Presented this seminar as part of curriculum based on \hyperlink{http://ieeexplore.ieee.org/search/freesrchabstract.jsp?tp=&arnumber=1621007}{IEEE
+%paper}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%Co-Curricular%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Co-Curricular}
-\subsection{Talks and Workshops attended}
-\cventry{}{* Introduction to Ruby and Ruby on Rails}{}{}{}{}
-\cventry{}{* RubyConf 2012}{}{}{}{}
-\cventry{}{* Agile programming practices}{}{}{}{}
-\cventry{}{* Version controlling using Git}{}{}{}{}
-\cventry{}{* PyCon 2011}{}{}{}{}
-\cventry{}{* MiniDebianConference 2010, 2011}{}{}{}{}
-\cventry{}{* GNUnify2011}{}{}{}{}
-\cventry{}{* Programming in Python}{}{}{}{}
-\cventry{}{* Android application development basics}{}{}{}{}
-\cventry{}{* Microsoft .Net framework}{}{}{}{}
-\cventry{}{* Cloud Computing (Cloud Camp)}{}{}{}{}	
-\subsection{Other}
-\cventry{}{* Volunteered for RubyConf 2012}{}{}{}{}	
-\cventry{}{* Active member of the Diaspora Pune group}{}{}{}{}	
-\cventry{}{* Member of Pune Linux User’s Group (PLUG) and VIT Active Linux Users group (VALU). }{}{}{}{}	
-\cventry{}{* Participated at various inter-college level technical events}{}{}{}{}
-\cventry{}{* Member of college basketball team}{}{}{}{}		
+%\section{Co-Curricular}
+%\subsection{Talks and Workshops attended}
+%\cventry{}{* Introduction to Ruby and Ruby on Rails}{}{}{}{}
+%\cventry{}{* RubyConf 2012}{}{}{}{}
+%\cventry{}{* Agile programming practices}{}{}{}{}
+%\cventry{}{* Version controlling using Git}{}{}{}{}
+%\cventry{}{* PyCon 2011}{}{}{}{}
+%\cventry{}{* MiniDebianConference 2010, 2011}{}{}{}{}
+%\cventry{}{* GNUnify2011}{}{}{}{}
+%\cventry{}{* Programming in Python}{}{}{}{}
+%\cventry{}{* Android application development basics}{}{}{}{}
+%\cventry{}{* Microsoft .Net framework}{}{}{}{}
+%\cventry{}{* Cloud Computing (Cloud Camp)}{}{}{}{}
+%\subsection{Other}
+%\cventry{}{* Volunteered for RubyConf 2012}{}{}{}{}
+%\cventry{}{* Active member of the Diaspora Pune group}{}{}{}{}
+%\cventry{}{* Member of Pune Linux User’s Group (PLUG) and VIT Active Linux Users group (VALU). }{}{}{}{}
+%\cventry{}{* Participated at various inter-college level technical events}{}{}{}{}
+%\cventry{}{* Member of college basketball team}{}{}{}{}
 
 %\cvlistitem{ Item 1}
 %\cvlistitem{ Item 2
@@ -157,12 +154,10 @@ paper}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\newpage
 %\section{Interests and Hobbies}
-%\cvline{Privacy and Security}{\small I like to spread awareness about Key signing, online privacy. I like to educate people on how to use internet safely. }
 %\cvline{Blogging}{\small I like to blog about my thoughts, technology and any enlightening events of my life.}
-%\cvline{Reading}{\small Reading technical blogs, journals, technical books and fictional and non-fiction novels.} 
+%\cvline{Reading}{\small Reading technical blogs, journals, technical books.}
 %\cvline{IRCing}{\small I like to use the IRC for learning and helping out people.}
 %\cvline{E-Gadgets}{\small I like to explore new electronic gadgets.}
-%\cvline{Travelling}{\small I love traveling and trekking on weekends.}
 
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
